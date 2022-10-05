@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <style>
+        input {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>Text:</label><input type="text"><br>
+        <label>Number:</label><input type="number" min="0" step="5" max="99"><br>
+        <label>Range:</label><input type="range" min="0" max="10" value="9"><br>
+        <label>Color:</label><input type="color"><br>
+        <label>E-mail:</label><input type="email"><br>
+        <label>URL:</label><input type="url"><br>
+        <label>Date:</label><input type="date"><br>
+        <label>Week:</label><input type="week"><br> <!--does not work on Mozila Firefox-->
+        <label>Month:</label><input type="month"><br><!--does not work on Mozila Firefox-->
+        <label>Checkbox:</label><input type="checkbox"><input type="checkbox"><br>
+        <label>Radio:</label><input name="aceitar" type="radio"><input type="radio" name="aceitar"><br>
+        <label>Hidden:</label><input type="hidden"><br>
+        <label>File:</label><input type="file" multiple><br>
+        <label>Search:</label><input type="search"><br><!--does not work on Mozila Firefox-->
+        <label>Button:</label><input type="submit" value="enviar"><br>
+    </form>
+</body>
+</html>
