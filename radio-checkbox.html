@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <form method="get">
+        <h3>Você selecionou: pizza de calabresa</h3>
+        <p>Quais adicionais você deseja?</p>
+        <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br> <!--esse [] em opcional serve para enviar itens para uma linguagem de programação em forma de lista e não de variável-->
+        <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+        <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+        <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+        <p>Borda recheada?</p>
+        <input type="radio" name="borda" value="sim">Sim <br> <!--Em name tem que deixar com a mesma variável ('borda') para que o radio button funcione com apenas uma opção, caso contrário, seria possível clicar em várias radio buttons-->
+        <input type="radio" name="borda" value="sim">Não <br>
+        <p>Bebida</p>
+        <input type="radio" name="bebida" value="suco">Suco <br>
+        <input type="radio" name="bebida" value="refrigerante">Refrigerante <br>
+        <input type="radio" name="bebida" value="agua">Água <br>
+        <input type="radio" name="bebida" value="nenhum">nenhum <br><br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+</body>
+</html>
