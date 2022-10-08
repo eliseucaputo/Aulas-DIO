@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+div.menu ul li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #64DFBD;
+    font-size: 1.1em;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 10px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background-color: rgba(5, 108, 108, 0.219);
+    min-height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clinica {
+    /* Editar o layout do nome da clínica!!!!!!!*/
+}
+
+i.fa-bed {
+    font-size: 4em;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+label {
+    width: 70px;
+    text-align: right;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: #64DFBD;
+    border: none;
+
+}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    width: 500px;
+    margin: 160px auto;
+}
+
+th {
+    border: 1px solid gray;
+    background-color: #23282C;
+    color: white;
+    text-align: left;
+}
+
+td {
+    border: 1px solid gray;
+}
+
+.footer {
+    background-color: rgba(5, 108, 108, 0.219);
+    min-height: 50px;
+}
+
+div.footer p {
+    text-align: center;
+}
