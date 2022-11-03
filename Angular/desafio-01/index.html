@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTAL DE NOTÍCIAS GALÁTICO</title>
+        <link rel="stylesheet" href="/styles/card.css">
+        <script src="/src/Components/CardNews.js" defer></script>
+        <script src="/src/Components/TituloDinamico.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="card-left">
+                    <span>By Eliseu Caputo</span>
+                    <a href="#">Darth Vader Contrata Devs</a>
+                    <p>Darth Vader procura desenvolvedores que sabem trabalhar com componentes</p>
+                </div>
+                <div class="card-right">
+                    <img src="/assets/darth350.jpg" alt="Imagem do Darth Vader">
+                </div>
+            </div>
+        </div>
+
+         <card-news
+            autor="Eliseu"
+            title="Darth Vader contrata"
+            link-url="www.google.com"
+            photo="/assets/darth350.jpg "
+            content="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."
+        >
+        </card-news>
+         
+         
+</html>
